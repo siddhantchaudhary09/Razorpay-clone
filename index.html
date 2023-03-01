@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="main.css" />
     <title>Razorpay</title>
   </head>
-  <body>
+  <body class="overflow-hidden">
+    <!-- NAVBAR -->
     <nav class="bg-deepblue">
       <div
         class="relative w-[1080px] flex items-center justify-between mx-auto"
@@ -100,5 +101,42 @@
         </div>
       </div>
     </nav>
+
+    <!-- HERO SECTION -->
+    <section class="relative bg-deepblue">
+      <div
+        class="flex w-10/12 max-w-[1080px] flex-row justify-between items-center mx-auto"
+      >
+        <!-- left part -->
+        <div class="space-y-8">
+          <h1 class="text-white font-bold text-[40px] leading-1.2">
+            Power your finance, grow your business
+          </h1>
+          <div class="w-6 h-1 bg-greenlight"></div>
+          <p class="text-graytext text-[18px] leading-7">
+            Accept payments from customers. Automate payouts to vendors &
+            employees. Never run out of working capital.
+          </p>
+          <button
+            class="bg-lightblue text-white rounded-md font-bold hover:bg-lightblue500 transition-all duration-200 py-[14px] px-[18px]"
+          >
+            Sign Up Now
+          </button>
+        </div>
+
+        <!-- right part -->
+
+        <img
+          src="./assets/hero-illustration.jpg"
+          alt=""
+          class="max-w-[680px]"
+        />
+      </div>
+
+      <!-- shape part -->
+      <div class="absolute left-0 right-0 w-[103%]">
+        <img src="./assets/hero-shape.svg" class="w-full object-fill" />
+      </div>
+    </section>
   </body>
 </html>
